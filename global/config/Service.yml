@@ -1,0 +1,26 @@
+#Description :
+#In this file : list of all routes used
+
+#Exemple : 
+#service_nm_'name':
+# service_class_path:'PathClass'
+# service_class_args:'[service_id], {parameter_key}, "plain_value"'
+
+#Datas
+#**************************************************************************************
+
+service_nm_Db:
+ service_class_path:kernel/handle/Database.php
+ service_class_args:{CONF_DB_DNS}, {CONF_DB_USER}, {CONF_DB_PW}
+
+service_nm_ToolBoxProd:
+ service_class_path:global/src/tool/ToolBoxProd.php
+ service_class_args:
+
+service_nm_ToolBoxWeather:
+ service_class_path:global/src/tool/ToolBoxWeather.php
+ service_class_args:
+
+service_nm_ToolBoxGraph:
+ service_class_path:global/src/tool/ToolBoxGraph.php
+ service_class_args:

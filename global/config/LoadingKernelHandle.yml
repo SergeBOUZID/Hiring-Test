@@ -1,0 +1,29 @@
+#Description :
+#In this file : list of all components KernelHandle to load by routes name.
+#If you want to load component, uncomment it
+
+#Exemple : 
+#component_nm_'name':
+# component_path:'PathComponent loading'
+# component_route_include:'name of route 1':...:'name of route N':'*'
+# component_route_exclude:'name of route 1'...:'name of route N':'*'
+
+#The character '*' means all routes. Don't use if you write at least one name of route
+#All of parts is require
+
+#Datas
+#**************************************************************************************
+
+#Database
+component_nm_HandleDatabase:
+ component_path:/kernel/handle/Database.php
+ component_route_include:*
+ component_route_exclude:
+component_nm_HandleDatabaseTemplate:
+ component_path:/kernel/handle/DatabaseTemplate.php
+ component_route_include:*
+ component_route_exclude:
+component_nm_HandleDatabaseStatement:
+ component_path:/kernel/handle/DatabaseStatement.php
+ component_route_include:*
+ component_route_exclude:

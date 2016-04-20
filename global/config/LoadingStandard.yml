@@ -1,0 +1,14 @@
+#Description :
+#In this file : list of all components to load by routes name during the standard level.
+
+#Exemple : 
+#component_nm_'name':
+# component_path:'PathComponent loading'
+# component_route_include:'name of route 1':...:'name of route N':'*'
+# component_route_exclude:'name of route 1':...:'name of route N':'*'
+
+#The character '*' means all routes. Don't use if you write at least one name of route
+#All of parts is require
+
+#Datas
+#**************************************************************************************

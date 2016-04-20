@@ -1,0 +1,24 @@
+#Description :
+#In this file : list of all components to load by routes name
+
+#Exemple : 
+#component_nm_'name':
+# component_path:'PathComponent loading'
+# component_route_include:'name of route 1':...:'name of route N':'*'
+# component_route_exclude:'name of route 1':...:'name of route N':'*'
+
+#The character '*' means all routes. Don't use if you write at least one name of route
+#All of parts is require
+
+#Datas
+#**************************************************************************************
+
+component_nm_ListData:
+ component_path:global/src/model/ListData.php
+ component_route_include:*
+ component_route_exclude:
+
+component_nm_ListDataProd:
+ component_path:module/production/model/ListDataProd.php
+ component_route_include:ProdPageListShow:ProdListShow
+ component_route_exclude:

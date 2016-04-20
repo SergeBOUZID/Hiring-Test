@@ -1,0 +1,40 @@
+#Configuration DB
+#**************************************************************************************
+CONF_DB_SVR:localhost
+CONF_DB_NM:db_ssence_test
+CONF_DB_DNS:mysql:host=localhost;dbname=db_ssence_test
+CONF_DB_USER:ssense_test_user
+CONF_DB_PW:ssense_test_user
+
+
+
+#Url
+#**************************************************************************************
+CONF_URL_API_WEATHER:https://api.forecast.io/forecast/e60efe99b1bf9036ce9a154a5c1c10ee/45.5187953,-73.5580537
+
+
+
+#Configuration tag
+#**************************************************************************************
+CONF_TAG_SAVE_API_WEATHER:tag_save_api_weather
+CONF_TAG_SVC_DB:Db
+CONF_TAG_SVC_TOOLBOX_PROD:ToolBoxProd
+CONF_TAG_SVC_TOOLBOX_WEATHER:ToolBoxWeather
+CONF_TAG_SVC_TOOLBOX_GRAPH:ToolBoxGraph
+CONF_TAG_LIST_SQL_CRITERIA:tag_list_sql_criteria
+CONF_TAG_LIST_SQL_LIMIT:tag_list_sql_limit
+CONF_TAG_LIST_SQL_OPE_VALUE:tag_list_sql_ope_value
+
+
+
+#Configuration list count row per page
+#**************************************************************************************
+CONF_LIST_PAGE_COUNT_ROW_PROD:3
+
+
+
+#Configuration values
+#**************************************************************************************
+
+#Configuration characters
+CONF_CHARSET_ENCODING:UTF-8

@@ -1,0 +1,35 @@
+#Description :
+#In this file : list of all routes used
+
+#Exemple : 
+#route_nm_'name':
+# route_url:'Url example : /part_1/{var_1}/part_2/{var_2}/...'
+# route_path:'PathController:Action'
+
+#Exemple : configuration the default route (only path) if no route found
+#route_default:
+# route_url:'Url example : /part_1/part_2/...' (without variable)
+# route_path:'PathController:Action'
+
+#Datas
+#**************************************************************************************
+
+route_default:
+ route_url:/App/Error
+ route_path:/global/src/controller/AppController.php
+
+route_nm_HomePageShow:
+ route_url:/
+ route_path:/module/home/controller/HomeController.php:actionPageShow
+
+route_nm_ProdPageListShow:
+ route_url:/Production
+ route_path:/module/production/controller/ProdController.php:actionPageListShow
+
+route_nm_ProdListShow:
+ route_url:/Production/List
+ route_path:/module/production/controller/ProdController.php:actionListShow
+
+route_nm_WeatherPageShow:
+ route_url:/Weather
+ route_path:/module/weather/controller/WeatherController.php:actionPageShow
